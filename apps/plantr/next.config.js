@@ -6,7 +6,7 @@ import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
 const config = {
-  transpilePackages: ["@repo/ui"],
+	transpilePackages: ["@repo/ui"],
 };
 
 export default config;

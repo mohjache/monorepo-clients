@@ -1,22 +1,22 @@
 {
-  "extends": "@repo/typescript-config/nextjs.json",
-  "compilerOptions": {
-    "verbatimModuleSyntax": true,
-    "checkJs": true,
-    "incremental": false,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"],
-      "~/*": ["./src/*"]
-    }
-  },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.cjs",
-    "**/*.js",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": ["node_modules", "generated"]
+	"extends": "@repo/typescript-config/nextjs.json",
+	"compilerOptions": {
+		"verbatimModuleSyntax": true,
+		"checkJs": true,
+		"incremental": false,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"],
+			"~/*": ["./src/*"]
+		}
+	},
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.cjs",
+		"**/*.js",
+		".next/types/**/*.ts"
+	],
+	"exclude": ["node_modules", "generated"]
 }
