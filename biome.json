@@ -6,6 +6,11 @@
     "useIgnoreFile": true
   },
   "files": {
+    "includes": [
+      "**",
+      "!packages/ui/src/components/ui",
+      "!packages/ui/src/styles/globals.css"
+    ],
     "ignoreUnknown": true
   },
   "formatter": {
