@@ -25,7 +25,9 @@ export const metadata: Metadata = {
 		title: siteConfig.name,
 		description: siteConfig.description,
 	},
-	icons: [{ rel: "icon", url: "/favicon.ico" }],
+	icons: [
+		{ rel: "icon", type: "image/svg+xml", url: "/favicon.svg" },		
+	],
 };
 
 const display = Cormorant_Garamond({
