@@ -18,11 +18,11 @@ export default function PrivacyPage() {
 				<div className="mt-8 space-y-6 text-black/72 text-sm leading-7">
 					<p>
 						If you join the Plantr by Mingie waitlist, your email address is
-						used to send release updates, rare plant announcements, and related
-						launch information.
+						used to send journey updates, rare alocasia announcements, and
+						related progress information.
 					</p>
 					<p>
-						The waitlist is intended for occasional release-focused emails. It
+						The waitlist is intended for occasional journey-focused emails. It
 						is not intended to become a high-frequency newsletter.
 					</p>
 					<p>

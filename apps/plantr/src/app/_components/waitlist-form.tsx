@@ -19,7 +19,7 @@ function SubmitButton() {
 			disabled={pending}
 			type="submit"
 		>
-			{pending ? "Joining..." : "Join the waitlist"}
+			{pending ? "Joining..." : "Follow the journey"}
 		</button>
 	);
 }
@@ -28,7 +28,7 @@ function FormMessage({ state }: { state: WaitlistActionState }) {
 	if (state.status === "idle" || !state.message) {
 		return (
 			<p className="text-black/60 text-sm leading-6">
-				Release emails only. No spam, no payment, and no pressure to buy.
+				Thoughtful updates only. No spam, no payment, and no pressure to buy.
 			</p>
 		);
 	}
@@ -63,7 +63,7 @@ export function WaitlistForm() {
 					className="min-h-12 flex-1 rounded-full border border-black/10 bg-white/90 px-5 text-[var(--color-ink)] text-sm outline-none ring-0 placeholder:text-black/45 focus:border-[var(--color-leaf)]"
 					id="email"
 					name="email"
-					placeholder="Enter your email for rare plant releases"
+					placeholder="Enter your email to follow the rare alocasia journey"
 					required
 					type="email"
 				/>

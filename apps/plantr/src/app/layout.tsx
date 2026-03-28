@@ -4,19 +4,26 @@ import "~/styles/globals.css";
 import type { Metadata } from "next";
 import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 
+import { siteConfig } from "~/lib/site";
+
 export const metadata: Metadata = {
-	metadataBase: new URL("https://plantr.vercel.app"),
-	title: "Plantr by Mingie | Rare and Variegated Plants in Brisbane",
-	description:
-		"Join the Plantr by Mingie waitlist for rare and variegated alocasia, anthuriums, and collector plant releases from Brisbane.",
+	metadataBase: new URL(siteConfig.url),
+	title: "Plantr by Mingie | Rare Alocasias in Brisbane",
+	description: siteConfig.description,
 	alternates: {
 		canonical: "/",
 	},
 	openGraph: {
-		title: "Plantr by Mingie",
-		description:
-			"Rare and variegated plant releases for Brisbane collectors and Australian plant enthusiasts.",
+		title: siteConfig.name,
+		description: siteConfig.description,
+		url: siteConfig.url,
+		siteName: siteConfig.name,
 		type: "website",
+	},
+	twitter: {
+		card: "summary_large_image",
+		title: siteConfig.name,
+		description: siteConfig.description,
 	},
 	icons: [{ rel: "icon", url: "/favicon.ico" }],
 };

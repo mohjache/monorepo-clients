@@ -4,43 +4,43 @@ import { WaitlistForm } from "~/app/_components/waitlist-form";
 
 const featuredPlants = [
 	{
-		name: "Variegated Alocasia",
-		note: "Collector releases with pink, cream, and green marbling.",
+		name: "Pink variegated forms",
+		note: "Highly expressive alocasias with dramatic pink, cream, and green marbling.",
 		status: "Current focus",
 	},
 	{
-		name: "Rare Anthuriums",
-		note: "Velvet leaves, dramatic veins, and slower-burn collector appeal.",
-		status: "Day-one category",
+		name: "Collector-grade foliage",
+		note: "Rare alocasia selections chosen for standout shape, texture, and variegation.",
+		status: "Quality-led",
 	},
 	{
-		name: "Future Specimens",
-		note: "Uncommon plants sourced for future Brisbane-first releases.",
+		name: "Small-batch progress",
+		note: "Rare alocasia updates shaped around growth, readiness, and presentation.",
 		status: "Waitlist interest",
 	},
 ] as const;
 
 const trustPoints = [
 	"Brisbane-first collector brand with a real grower identity behind it.",
-	"Rare plant interest without making customers take on the sourcing complexity.",
-	"Releases stay limited and waitlist-led instead of pretending everything is always in stock.",
+	"Rare alocasias grown with patience, care, and close attention over time.",
+	"Updates are shaped around genuine progress instead of pushing people toward a sale.",
 ] as const;
 
 const howItWorks = [
 	{
 		step: "01",
-		title: "Source with taste",
-		body: "Plantr by Mingie focuses on uncommon alocasia, anthuriums, and high-interest collector plants that stand out from the usual local catalog.",
+		title: "Select exceptional alocasias",
+		body: "Plantr by Mingie stays tightly focused on rare alocasias with standout variegation, strong shape, and collector appeal.",
 	},
 	{
 		step: "02",
-		title: "Grow before release",
-		body: "The priority is healthy, established plants and realistic release timing, not rushed hype or fragile stock.",
+		title: "Grow slowly and observe closely",
+		body: "Each update should be shaped by patience, plant stability, and careful attention rather than speed.",
 	},
 	{
 		step: "03",
-		title: "Release to the waitlist",
-		body: "Subscribers hear first when a plant is ready, with early access shaped around small, limited releases.",
+		title: "Share progress",
+		body: "Subscribers receive thoughtful updates as plants develop, mature, and reach a standard worth showing.",
 	},
 ] as const;
 
@@ -48,27 +48,27 @@ const faqs = [
 	{
 		question: "What is Plantr by Mingie?",
 		answer:
-			"A Brisbane-first rare plant brand focused on variegated alocasia, rare anthuriums, and future collector releases for Australian plant enthusiasts.",
+			"A Brisbane-first brand focused on the growing journey of rare alocasias for Australian collectors.",
 	},
 	{
 		question: "Can I buy plants from the website right now?",
 		answer:
-			"Not yet. The current site is for waitlist signup and release updates, not live ecommerce.",
+			"Not yet. The current site is for following the journey and receiving updates, not live ecommerce.",
 	},
 	{
 		question: "Why join the waitlist?",
 		answer:
-			"The waitlist gets first access to releases, launch updates, and early notice when plants are actually ready.",
+			"It is a simple way to follow the journey, see meaningful progress, and stay close to future updates without any pressure to buy.",
 	},
 	{
-		question: "Will every release be fast?",
+		question: "Will every update be frequent?",
 		answer:
-			"No. Some collector plants take time, and the site is intentionally transparent about that. Quality matters more than speed.",
+			"No. Some collector plants take time, and the site is intentionally transparent about that. Meaningful progress matters more than speed.",
 	},
 	{
 		question: "Is joining the waitlist a preorder?",
 		answer:
-			"No. Joining is free and carries no purchase obligation. It simply gives you earlier access when releases become real.",
+			"No. Joining is free and carries no purchase obligation. It simply gives you a calmer way to stay close to the journey as progress becomes real.",
 	},
 ] as const;
 
@@ -84,15 +84,17 @@ function PlantChip({
 	tone,
 	children,
 }: {
-	tone: "leaf" | "blush" | "cream";
+	tone: "leaf" | "blush" | "blush-strong" | "cream";
 	children: React.ReactNode;
 }) {
-	const toneClass =
-		tone === "leaf"
-			? "bg-[rgb(52_85_59_/_0.14)] text-[var(--color-leaf)]"
-			: tone === "blush"
-				? "bg-[rgb(242_201_211_/_0.45)] text-[#7e4351]"
-				: "bg-[rgb(250_242_230_/_0.95)] text-[var(--color-soil)]";
+	const toneClassMap = {
+		leaf: "bg-[rgb(52_85_59_/_0.14)] text-[var(--color-leaf)]",
+		blush: "bg-[rgb(242_201_211_/_0.45)] text-[#7e4351]",
+		"blush-strong":
+			"bg-[rgb(242_201_211_/_0.92)] text-[#5f2d38] shadow-[0_10px_24px_rgba(20,14,16,0.18)]",
+		cream: "bg-[rgb(250_242_230_/_0.95)] text-[var(--color-soil)]",
+	} as const;
+	const toneClass = toneClassMap[tone];
 
 	return (
 		<span
@@ -129,16 +131,16 @@ export default function HomePage() {
 				<div className="mt-8 grid gap-8">
 					<div className="rounded-[2rem] border border-black/8 bg-white/70 p-6 shadow-[0_24px_80px_rgba(31,36,29,0.08)] backdrop-blur md:p-8 lg:p-10">
 						<PlantChip tone="cream">
-							Brisbane-first rare plant releases
+							Brisbane-first rare alocasia journey
 						</PlantChip>
 						<h1 className="mt-6 max-w-3xl font-display text-5xl text-[var(--color-ink)] leading-[0.92] tracking-[-0.04em] sm:text-6xl lg:text-7xl">
-							Rare and variegated plants for Australian collectors.
+							Rare alocasias, grown with patience.
 						</h1>
 						<p className="mt-6 max-w-2xl text-base text-black/72 leading-8 sm:text-lg">
-							Plantr by Mingie brings hard-to-source collector plants into a
-							softer, more trustworthy release experience. Follow the grower,
-							join the waitlist, and hear first when rare plants are actually
-							ready.
+							Plantr by Mingie is a Brisbane-based home for people interested in
+							the growing journey of rare alocasias. Follow along for thoughtful
+							updates, visible care, and a calmer pace without the pressure of a
+							hard sell.
 						</p>
 
 						<div className="mt-8 max-w-2xl">
@@ -147,8 +149,8 @@ export default function HomePage() {
 
 						<div className="mt-8 flex flex-wrap gap-3">
 							<PlantChip tone="leaf">Variegated alocasia Australia</PlantChip>
-							<PlantChip tone="blush">Rare anthuriums</PlantChip>
-							<PlantChip tone="cream">Limited releases</PlantChip>
+							<PlantChip tone="blush">Patient growing approach</PlantChip>
+							<PlantChip tone="cream">Thoughtful growing updates</PlantChip>
 						</div>
 					</div>
 
@@ -156,9 +158,9 @@ export default function HomePage() {
 						<div className="grid gap-4 lg:grid-cols-[1.05fr_0.95fr]">
 							<article className="leaf-card rounded-[1.75rem] border border-black/8 bg-[linear-gradient(180deg,#28422c_0%,#17241a_100%)] p-5 text-white shadow-[0_18px_40px_rgba(31,36,29,0.22)]">
 								<div className="flex items-center justify-between">
-									<PlantChip tone="blush">Specimen focus</PlantChip>
+									<PlantChip tone="blush-strong">Specimen focus</PlantChip>
 									<span className="text-white/55 text-xs uppercase tracking-[0.25em]">
-										Release-led
+										Progress-led
 									</span>
 								</div>
 								<div className="mt-8 flex items-end gap-4">
@@ -191,16 +193,16 @@ export default function HomePage() {
 
 								<article className="rounded-[1.75rem] border border-black/8 bg-[rgb(219_231_213_/_0.72)] p-5">
 									<p className="text-black/40 text-xs uppercase tracking-[0.26em]">
-										Waitlist outcome
+										Signup outcome
 									</p>
 									<p className="mt-4 font-display text-4xl text-[var(--color-leaf)] leading-none">
-										First access,
+										Stay close,
 										<br />
 										no pressure.
 									</p>
 									<p className="mt-4 text-black/68 text-sm leading-7">
-										The page is designed to convert social traffic into owned
-										demand without pretending stock is always live.
+										The page is designed to capture genuine interest in the
+										growing journey without forcing a buying decision.
 									</p>
 								</article>
 							</div>
@@ -222,21 +224,20 @@ export default function HomePage() {
 					</div>
 					<div className="rounded-[1.5rem] bg-[rgb(255_255_255_/_0.95)] p-5">
 						<p className="text-black/40 text-xs uppercase tracking-[0.26em]">
-							Instagram as proof
+							Visible care
 						</p>
 						<p className="mt-3 text-black/72 text-sm leading-7">
-							The website is the conversion endpoint. Instagram remains the live
-							proof layer for the plants, the process, and the eye behind the
-							brand.
+							Every update should reflect real progress, careful growing, and
+							close attention to how each plant is developing over time.
 						</p>
 					</div>
 					<div className="rounded-[1.5rem] bg-[rgb(242_201_211_/_0.4)] p-5">
 						<p className="text-black/40 text-xs uppercase tracking-[0.26em]">
-							Release-driven
+							Patience-led
 						</p>
 						<p className="mt-3 text-black/72 text-sm leading-7">
-							Healthy, ready plants matter more than fast promises. Waitlists
-							should build appetite without forcing deadlines.
+							Healthy, ready plants matter more than fast promises. Email
+							updates should build trust without forcing deadlines.
 						</p>
 					</div>
 				</div>
@@ -250,13 +251,12 @@ export default function HomePage() {
 					<div className="max-w-xl">
 						<SectionEyebrow>Collector categories</SectionEyebrow>
 						<h2 className="font-display text-4xl leading-[0.96] tracking-[-0.03em] sm:text-5xl">
-							Built as a broader rare-plant brand from day one.
+							A narrow focus can be stronger than a broad catalog.
 						</h2>
 						<p className="mt-5 text-base text-black/72 leading-8">
-							The homepage should not look like a one-plant microsite. It needs
-							to frame Plantr by Mingie as a taste-driven collector brand with
-							room to expand, while keeping the initial SEO focus tight enough
-							to rank around variegated alocasia in Australia.
+							The homepage should stay tightly focused on rare alocasias so the
+							brand promise is clear, the SEO target stays sharp, and the
+							waitlist attracts the right kind of collector interest.
 						</p>
 					</div>
 
@@ -297,13 +297,12 @@ export default function HomePage() {
 					<div>
 						<SectionEyebrow>How it works</SectionEyebrow>
 						<h2 className="font-display text-4xl leading-[0.96] tracking-[-0.03em] sm:text-5xl">
-							Less sourcing headache, more collector access.
+							Slower updates. Stronger trust.
 						</h2>
 						<p className="mt-5 text-base text-black/72 leading-8">
-							The copy needs to make the value proposition obvious without
-							leaning on risky or over-detailed import claims. The customer
-							outcome is simple: a more credible path to rare plants, filtered
-							through a Brisbane grower and released with better timing.
+							The value proposition should focus on patience, plant care, and
+							visible progress. The customer outcome is simple: better rare
+							alocasias grown with more care and less rushed risk.
 						</p>
 					</div>
 					<div className="grid gap-4">
@@ -339,8 +338,8 @@ export default function HomePage() {
 						<p className="mt-5 text-base text-black/72 leading-8">
 							This section exists to answer the three objections that matter
 							most: legitimacy, plant health, and timing. The page should say
-							clearly that waitlist access is not a preorder and that releases
-							happen when plants are ready.
+							clearly that waitlist access is not a preorder and that updates
+							come when plants are genuinely worth sharing.
 						</p>
 					</div>
 					<div className="grid gap-4 md:grid-cols-2">
@@ -358,8 +357,8 @@ export default function HomePage() {
 								Plant health
 							</p>
 							<p className="mt-4 text-black/70 text-sm leading-7">
-								Healthy, established plants should be the release benchmark
-								wherever possible. Quality comes before speed.
+								Healthy, established plants should be the benchmark wherever
+								possible. Care comes before speed.
 							</p>
 						</article>
 						<article className="rounded-[1.5rem] bg-white/78 p-5 md:col-span-2">
@@ -367,8 +366,8 @@ export default function HomePage() {
 								Waitlist promise
 							</p>
 							<p className="mt-4 text-black/70 text-sm leading-7">
-								Joining the waitlist means first access to releases and updates.
-								It does not mean a purchase obligation, a fixed date, or a hard
+								Signing up means following the journey and receiving updates. It
+								does not mean a purchase obligation, a fixed date, or a hard
 								sell.
 							</p>
 						</article>
@@ -377,77 +376,33 @@ export default function HomePage() {
 			</section>
 
 			<section className="mx-auto max-w-7xl px-5 py-14 sm:px-8 lg:px-10">
-				<div className="grid gap-10 lg:grid-cols-[1fr_0.9fr]">
-					<div className="rounded-[2rem] border border-black/8 bg-white/75 p-6 shadow-[0_20px_80px_rgba(31,36,29,0.05)] backdrop-blur lg:p-8">
-						<SectionEyebrow>Why join</SectionEyebrow>
-						<h2 className="font-display text-4xl leading-[0.96] tracking-[-0.03em] sm:text-5xl">
-							Join for early access, stay for the collector eye behind the
-							brand.
-						</h2>
-						<div className="mt-8 grid gap-4 md:grid-cols-2">
-							<div className="rounded-[1.5rem] bg-[rgb(250_242_230_/_0.9)] p-5">
-								<p className="text-black/40 text-xs uppercase tracking-[0.26em]">
-									Waitlist benefit
-								</p>
-								<p className="mt-4 text-black/72 text-sm leading-7">
-									Hear about releases before they go wider and get closer to the
-									top of the queue when stock is genuinely limited.
-								</p>
-							</div>
-							<div className="rounded-[1.5rem] bg-[rgb(219_231_213_/_0.72)] p-5">
-								<p className="text-black/40 text-xs uppercase tracking-[0.26em]">
-									Brand rhythm
-								</p>
-								<p className="mt-4 text-black/72 text-sm leading-7">
-									The email list exists to support releases, not to drown
-									subscribers in generic newsletters.
-								</p>
-							</div>
+				<div className="rounded-[2rem] border border-black/8 bg-white/75 p-6 shadow-[0_20px_80px_rgba(31,36,29,0.05)] backdrop-blur lg:p-8">
+					<SectionEyebrow>Why join</SectionEyebrow>
+					<h2 className="font-display text-4xl leading-[0.96] tracking-[-0.03em] sm:text-5xl">
+						Follow the journey of rare alocasias.
+					</h2>
+					<div className="mt-8 grid gap-4 md:grid-cols-2">
+						<div className="rounded-[1.5rem] bg-[rgb(250_242_230_/_0.9)] p-5">
+							<p className="text-black/40 text-xs uppercase tracking-[0.26em]">
+								Why sign up
+							</p>
+							<p className="mt-4 text-black/72 text-sm leading-7">
+								Stay connected to meaningful progress, plant development, and
+								the standards behind what gets shared.
+							</p>
 						</div>
-						<div className="mt-8">
-							<WaitlistForm />
+						<div className="rounded-[1.5rem] bg-[rgb(219_231_213_/_0.72)] p-5">
+							<p className="text-black/40 text-xs uppercase tracking-[0.26em]">
+								Quality promise
+							</p>
+							<p className="mt-4 text-black/72 text-sm leading-7">
+								Email updates should reflect a higher bar for health, readiness,
+								and presentation before anything is pushed forward.
+							</p>
 						</div>
 					</div>
-
-					<div className="rounded-[2rem] border border-black/8 bg-[rgb(31_36_29_/_0.94)] p-6 text-white shadow-[0_20px_80px_rgba(31,36,29,0.18)] lg:p-8">
-						<SectionEyebrow>Instagram bridge</SectionEyebrow>
-						<h2 className="font-display text-4xl text-white leading-[0.96] tracking-[-0.03em] sm:text-5xl">
-							The website converts. Instagram keeps the plants alive.
-						</h2>
-						<p className="mt-5 text-base text-white/72 leading-8">
-							Plantr by Mingie should feel like an extension of the Instagram
-							account rather than a disconnected startup shell. Plant imagery,
-							soft daylight tones, and collector-first language should carry
-							across both surfaces.
-						</p>
-						<div className="mt-8 space-y-4">
-							<div className="rounded-[1.5rem] border border-white/10 bg-white/5 p-5">
-								<p className="text-white/50 text-xs uppercase tracking-[0.26em]">
-									Proof layer
-								</p>
-								<p className="mt-3 text-sm text-white/72 leading-7">
-									Use Instagram to show progress, foliage detail, and the human
-									judgment behind each release.
-								</p>
-							</div>
-							<div className="rounded-[1.5rem] border border-white/10 bg-white/5 p-5">
-								<p className="text-white/50 text-xs uppercase tracking-[0.26em]">
-									Conversion endpoint
-								</p>
-								<p className="mt-3 text-sm text-white/72 leading-7">
-									Use the homepage for the single action that matters now:
-									getting serious interest onto the email list.
-								</p>
-							</div>
-						</div>
-						<Link
-							className="mt-8 inline-flex rounded-full border border-white/15 px-5 py-3 font-medium text-sm text-white hover:-translate-y-0.5 hover:bg-white/8"
-							href="https://www.instagram.com/mingie_plants/"
-							rel="noreferrer"
-							target="_blank"
-						>
-							Follow @mingie_plants
-						</Link>
+					<div className="mt-8">
+						<WaitlistForm />
 					</div>
 				</div>
 			</section>
@@ -480,7 +435,7 @@ export default function HomePage() {
 
 			<footer className="mx-auto flex max-w-7xl flex-col gap-4 px-5 pt-6 pb-10 text-black/58 text-sm sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-10">
 				<p>
-					Plantr by Mingie. Brisbane-first rare plant releases for collectors.
+					Plantr by Mingie. Brisbane-first rare alocasia updates for collectors.
 				</p>
 				<div className="flex flex-wrap items-center gap-4">
 					<Link className="hover:text-[var(--color-leaf)]" href="/privacy">

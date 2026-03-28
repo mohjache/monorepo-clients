@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
 
+import { siteConfig } from "~/lib/site";
+
 export default function sitemap(): MetadataRoute.Sitemap {
-	const baseUrl = "https://plantr.vercel.app";
+	const baseUrl = siteConfig.url;
 
 	return [
 		{

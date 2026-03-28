@@ -26,20 +26,20 @@ function renderWelcomeEmail(email: string) {
       <div style="margin:0 auto;max-width:560px;border:1px solid rgba(31,36,29,0.1);border-radius:24px;background:#fffdf8;overflow:hidden;">
         <div style="padding:32px 32px 20px;background:linear-gradient(135deg,#f4d0d7 0%,#dfead5 100%);">
           <p style="margin:0 0 8px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;">Plantr by Mingie</p>
-          <h1 style="margin:0;font-family:Georgia,serif;font-size:38px;line-height:1;">You're on the waitlist.</h1>
+          <h1 style="margin:0;font-family:Georgia,serif;font-size:38px;line-height:1;">You're following the journey.</h1>
         </div>
         <div style="padding:32px;">
           <p style="margin:0 0 16px;font-size:16px;line-height:1.7;">
             Thanks for joining with <strong>${email}</strong>.
           </p>
           <p style="margin:0 0 16px;font-size:16px;line-height:1.7;">
-            Plantr by Mingie is building a Brisbane-first home for rare and variegated plant releases, with early access sent to the waitlist before anything goes public.
+            Plantr by Mingie is building a Brisbane-first home for people interested in the growing journey of rare alocasias.
           </p>
           <p style="margin:0 0 16px;font-size:16px;line-height:1.7;">
-            Emails will stay occasional and release-focused. In the meantime, Instagram is where the growing process, collector plants, and updates will show up first.
+            Emails will stay occasional and thoughtful, with updates shaped around progress, plant care, and how each alocasia is developing over time.
           </p>
           <p style="margin:24px 0 0;font-size:14px;line-height:1.7;color:#5f675b;">
-            No payment. No preorder pressure. Just first access when releases are real.
+            No payment. No pressure. Just a calmer way to stay close to the journey.
           </p>
         </div>
       </div>
@@ -108,7 +108,7 @@ export async function joinWaitlist(
 		const welcomeResult = await resend.emails.send({
 			from: fromEmail,
 			to: [email],
-			subject: "You're on the Plantr by Mingie waitlist",
+			subject: "You're following the Plantr by Mingie journey",
 			html: renderWelcomeEmail(email),
 		});
 
@@ -134,7 +134,7 @@ export async function joinWaitlist(
 		return {
 			status: "success",
 			message:
-				"You're on the waitlist. Check your inbox for a welcome email from Plantr by Mingie.",
+				"You're signed up. Check your inbox for a welcome email from Plantr by Mingie.",
 		};
 	} catch {
 		return {

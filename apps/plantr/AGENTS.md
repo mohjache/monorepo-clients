@@ -1,6 +1,6 @@
 # Plantr Agent Notes
 
-This app is a simple marketing website for Plantr, a Brisbane-based rare plant brand focused on collecting email waitlist demand for limited rare and variegated plant releases.
+This app is a simple marketing website for Plantr, a Brisbane-based rare alocasia brand focused on collecting email interest around the growing journey of rare alocasias.
 
 Use the product and marketing specification here before making content, design, SEO, or conversion changes:
 

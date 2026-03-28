@@ -2,34 +2,34 @@
 
 ## Goal
 
-Create a simple, SEO-aware marketing website for Plantr that converts Instagram and Facebook Marketplace traffic into email waitlist signups.
+Create a simple, SEO-aware marketing website for Plantr that converts Instagram and Facebook Marketplace traffic into email signups from people interested in following the growing journey of rare alocasias.
 
-The site should position Plantr as a Brisbane-based rare plant brand for Australian collectors, with a strong emphasis on:
+The site should position Plantr as a Brisbane-based rare alocasia brand for Australian collectors, with a strong emphasis on:
 
-- rare and exotic plants without the customer needing to manage sourcing risk
+- rare alocasias grown with patience and care
 - community-first credibility through a real grower identity
-- limited releases and collector demand
 - trust, plant health, and transparency over hype
+- long-term interest rather than immediate buying pressure
 
 Primary CTA:
 
-- `Join the waitlist`
+- `Follow the journey`
 
 ## Brand Positioning
 
 ### Core proposition
 
-Plantr helps Australian plant enthusiasts access rare and variegated collector plants without having to personally deal with overseas sourcing, customs complexity, acclimation, or import risk.
+Plantr invites Australian plant enthusiasts into the growing journey of rare alocasias through slower timing, visible care, and thoughtful growing standards.
 
 ### What the business is really selling
 
-The product is not only the plant itself. The business is selling:
+The site should not behave like it is trying to sell immediately. It should build interest around:
 
-- access
-- curation
-- reduced buyer risk
-- local plant readiness
-- collector excitement
+- the growing journey
+- visible care and patience
+- plant health standards
+- collector taste
+- trust in the person behind the brand
 
 ### Tone
 
@@ -49,7 +49,7 @@ The visual identity should merge the current Instagram personality into the Plan
 
 ### Positioning statement
 
-Plantr by Mingie is a Brisbane-based rare plant brand for Australian collectors who want unusual, hard-to-source plants without having to navigate the sourcing journey themselves.
+Plantr by Mingie is a Brisbane-based rare alocasia brand for Australian collectors who want exceptional plants grown with more patience, care, and attention over time.
 
 ## Audience
 
@@ -58,7 +58,7 @@ Plantr by Mingie is a Brisbane-based rare plant brand for Australian collectors 
 - Brisbane-based and broader Australian plant enthusiasts
 - Instagram-discovered buyers
 - Facebook Marketplace-discovered buyers
-- collectors interested in variegated alocasia, anthuriums, and uncommon tropical plants
+- collectors interested in variegated and uncommon alocasias
 
 ### Geographic focus
 
@@ -91,35 +91,35 @@ They are likely to hesitate because of:
 
 ### Primary conversion
 
-Email waitlist signup only.
+Email signup only.
 
 No pre-orders, payments, or deposits at this stage.
 
 ### Conversion objective
 
-Validate demand for rare release drops, especially around terms like `variegated alocasia Australia`, while building an owned email audience from social traffic.
+Capture interest from people who want to follow the progress of rare alocasias, especially around terms like `variegated alocasia Australia`, while building an owned email audience from social traffic.
 
 ### CTA framing
 
 Preferred CTA language:
 
-- `Join the waitlist`
+- `Follow the journey`
 
 Supporting CTA copy options:
 
-- `Get first access to rare plant drops`
-- `Be first to hear about collector releases`
-- `Join the Brisbane rare plant waitlist`
+- `Follow the rare alocasia journey`
+- `Get growing updates`
+- `Register your interest`
 
 ### Incentive
 
 The value exchange for email signup should be:
 
-- early access to limited releases
-- launch updates
-- first notice when high-interest plants are ready
+- updates on the growing journey
+- visibility into plant health and readiness
+- early notice when progress becomes meaningful
 
-Do not offer discounts as the main hook. Access and scarcity should do the work.
+Do not frame the signup around urgency or hard selling. Trust and interest should do the work.
 
 ## SEO Strategy
 
@@ -129,12 +129,11 @@ Do not offer discounts as the main hook. Access and scarcity should do the work.
 
 ### Secondary keywords
 
-- `rare plants Australia`
 - `rare alocasia Australia`
-- `collector plants Australia`
-- `exotic plants Brisbane`
+- `variegated alocasia Brisbane`
+- `rare alocasia Brisbane`
 - `variegated plants Brisbane`
-- `rare houseplants Australia`
+- `alocasia collectors Australia`
 
 ### SEO page intent
 
@@ -143,7 +142,7 @@ The homepage should target discovery for people searching for rare and variegate
 ### Homepage SEO targets
 
 - title tag should include brand + primary keyword intent
-- meta description should mention Brisbane, rare plants, and waitlist access
+- meta description should mention Brisbane, rare alocasias, and waitlist access
 - H1 should clearly describe the category and audience
 - subheadings should support search relevance without sounding stuffed
 - image alt text should describe specific plants naturally
@@ -153,11 +152,11 @@ The homepage should target discovery for people searching for rare and variegate
 
 Title:
 
-- `Plantr | Rare and Variegated Alocasia in Australia`
+- `Plantr by Mingie | Rare Alocasias in Brisbane`
 
 Meta description:
 
-- `Join the Plantr waitlist for rare and variegated alocasia, anthuriums, and collector plants in Australia. Brisbane-based, community-led, and focused on healthy ready-to-go releases.`
+- `Follow the Plantr by Mingie journey for rare alocasias in Brisbane. Community-led, thoughtful, and built around visible progress over time.`
 
 ## Homepage Specification
 
@@ -166,23 +165,23 @@ Meta description:
 Purpose:
 
 - immediately explain what Plantr is
-- anchor the site visually in rare plant imagery
-- drive waitlist signup above the fold
+- anchor the site visually in rare alocasia imagery
+- drive email signup above the fold
 
 Content requirements:
 
 - strong plant-led hero visual inspired by the attached pink variegated alocasia image
 - brand label using `Plantr by Mingie`
 - small Brisbane-first trust label
-- H1 focused on rare and variegated plants in Australia
-- short subheading explaining that Plantr sources unusual collector plants so buyers do not have to take on that complexity themselves
-- primary CTA: `Join the waitlist`
-- secondary link: `View on Instagram` or `See collector plants`
+- H1 focused on rare alocasias in Australia
+- short subheading explaining that Plantr is patient, thoughtful, and focused on how plants are grown over time
+- primary CTA: `Follow the journey`
+- secondary link: `See the journey`
 
 Suggested messaging direction:
 
-- `Rare and variegated plants for Australian collectors`
-- `Plantr brings hard-to-source collector plants within reach, with local care and release updates from Brisbane.`
+- `Rare alocasias, grown with patience`
+- `Plantr by Mingie shares the growing journey of rare alocasias with slower timing, visible care, and thoughtful growing from Brisbane.`
 
 Important constraint:
 
@@ -193,42 +192,40 @@ Important constraint:
 
 Purpose:
 
-- reduce legitimacy concerns quickly
+- reduce legitimacy concerns quickly and build trust early
 
 Content requirements:
 
 - mention Brisbane-based grower identity
 - mention existing experience growing and selling variegated plants locally
-- include Instagram as the live proof layer
-- optionally show follower count only if it becomes meaningful later; current low numbers should not be overemphasized
+- reinforce careful growing standards and clear growing discipline
 
 Suggested content:
 
 - `Built by a real Brisbane plant grower`
-- `Follow the growing journey on Instagram`
-- `Collector-focused, community-led, and release-driven`
+- `Collector-focused, quality-led, and grown with patience`
 
 ### 3. How Plantr works
 
 Purpose:
 
 - explain the value proposition simply
-- make the business model feel understandable and lower risk
+- make the approach feel understandable, careful, and lower risk
 
 Three-step structure:
 
-1. `Source`
-Plantr identifies rare and high-interest plants that are difficult for individual buyers to access.
+1. `Select`
+Plantr focuses tightly on rare alocasias with standout collector appeal.
 
 2. `Grow and prepare`
-Plants are acclimated, grown on, and prepared locally before release wherever possible.
+Plants are grown on, monitored, and prepared locally with health and stability as the benchmark.
 
-3. `Release to the waitlist`
-Subscribers hear first when limited plants are ready to go.
+3. `Share progress`
+Subscribers receive updates as plants develop, mature, and reach a standard worth showing.
 
 Important copy note:
 
-Avoid detailed claims about import capability unless legally verified. Keep this section high-level and customer-focused.
+Keep this section focused on plant health, patience, and visible care.
 
 ### 4. Featured collector plants section
 
@@ -241,20 +238,20 @@ Content direction:
 
 - variegated alocasia
 - rare alocasia cultivars
-- select anthuriums
-- future collector drops
+- collector-grade foliage
+- future alocasia updates
 
 Suggested format:
 
 - a grid of plant cards
-- each card marked as `Current focus`, `Future drop`, or `Waitlist interest`
+- each card marked as `Current focus`, `In progress`, or `Interest tracking`
 
 This section should communicate:
 
 - Plantr is a brand with an evolving collector catalog
-- not every item is live for sale now
+- the brand is documenting progress, not forcing a sale
 
-### 5. Why join the waitlist
+### 5. Why follow the journey
 
 Purpose:
 
@@ -262,10 +259,10 @@ Purpose:
 
 Bullets:
 
-- first access to limited releases
-- updates when plants are actually ready
-- early visibility into future collector drops
-- rare plant news from a Brisbane grower perspective
+- updates as plants develop over time
+- visibility into how plants are cared for over time
+- early notice when progress becomes worth sharing
+- a lower-pressure way to stay connected to the brand
 
 ### 6. Trust and expectation-setting section
 
@@ -275,35 +272,18 @@ Purpose:
 
 Recommended themes:
 
-- `We only want to release plants we would be happy to grow ourselves`
+- `We only want to share plants we would be happy to grow ourselves`
 - `Healthy, established plants matter more than rushing a drop`
-- `Some rare plants take time, and we will be transparent about that`
-- `Joining the waitlist gives you first access, not a purchase obligation`
+- `Some alocasias take time, and we will be transparent about that`
+- `Following the journey is about interest, not obligation`
 
 This section is critical. The site should explicitly say:
 
-- waitlist only, not payment
-- updates come as releases become real
+- email signup only, not payment
+- updates come as progress becomes real
 - quality and readiness come before speed
 
-### 7. Instagram integration section
-
-Purpose:
-
-- bridge the social proof gap
-- make the site feel connected to a real person and real plants
-
-Content requirements:
-
-- link out to the Instagram account
-- use imagery and copy style consistent with the attached `mingie_plants` examples
-- if technically simple later, embed or manually curate selected posts
-
-Messaging direction:
-
-- `See the plants, the process, and the grower behind Plantr`
-
-### 8. Waitlist form section
+### 7. Email capture section
 
 Purpose:
 
@@ -314,16 +294,16 @@ Requirements:
 - single email field
 - optional hidden source or campaign tracking
 - concise privacy reassurance
-- short success state confirming early access
+- short success state confirming they are following the journey
 
 Do not add interest dropdowns or multi-field qualification to the MVP form.
 
 Suggested copy:
 
-- `Join the waitlist for rare plant releases`
-- `Get launch updates and first access when collector plants are ready.`
+- `Follow the journey of rare alocasias`
+- `Get thoughtful updates as each plant develops, matures, and reaches a standard worth sharing.`
 
-### 9. FAQ section
+### 8. FAQ section
 
 Purpose:
 
@@ -333,10 +313,10 @@ Purpose:
 Suggested FAQ topics:
 
 - What kinds of plants will Plantr offer?
-- Are plants available now or only through future releases?
-- Why join the waitlist?
+- Are plants available now or still in progress?
+- Why follow the journey?
 - Will Plantr only sell in Brisbane?
-- How do you decide when a plant is ready for release?
+- How do you decide when a plant is worth sharing?
 - Will I need to pay to join the waitlist?
 - How often will you send emails?
 
@@ -346,10 +326,10 @@ Suggested FAQ topics:
 
 - Brisbane-based
 - Australian collector focus
-- rare and variegated plant interest
+- rare alocasia interest
 - community-first
 - healthy, ready-to-go plants where possible
-- limited releases
+- careful progress updates
 - transparent updates
 
 ### What to avoid
@@ -357,8 +337,8 @@ Suggested FAQ topics:
 - guaranteed availability
 - guaranteed delivery timing
 - exaggerated scarcity claims without basis
-- legal/import claims beyond what has been verified
-- anything that sounds like direct import advice to consumers
+- over-technical sourcing language
+- anything that sounds like technical operational advice to consumers
 
 ## Visual Direction
 
@@ -379,7 +359,7 @@ The design should feel:
 - pale pink and deep green tones from variegated foliage
 - earthy neutrals from terracotta and potting materials
 - simple photography with the plant as hero
-- real-person social identity, not anonymous brand stock imagery
+- real plant identity, not anonymous brand stock imagery
 
 ### Imagery rule
 
@@ -401,13 +381,13 @@ Do not use founder photography in the MVP. Trust should come from plant quality,
 
 1. Homepage
 2. Privacy policy
-3. Thank-you / waitlist confirmation page
+3. Thank-you / signup confirmation page
 
 ### Future SEO pages
 
 1. `/variegated-alocasia-australia`
-2. `/rare-plants-brisbane`
-3. `/collector-plants-australia`
+2. `/rare-alocasia-brisbane`
+3. `/variegated-alocasia-brisbane`
 4. species or category pages for high-interest plants
 5. care and education content
 
@@ -425,10 +405,10 @@ Do not use founder photography in the MVP. Trust should come from plant quality,
 
 1. user discovers a plant on Instagram or Marketplace
 2. user clicks through to Plantr
-3. homepage explains the brand and what kind of releases to expect
-4. user joins email waitlist
+3. homepage explains the brand and what kind of updates to expect
+4. user signs up for email updates
 5. user receives simple welcome email
-6. user later receives release notifications and collector updates
+6. user later receives thoughtful progress updates and collector updates
 
 ### Suggested welcome email
 
@@ -439,9 +419,9 @@ Subject:
 Body goals:
 
 - confirm subscription
-- set expectations that updates will be occasional and release-focused
+- set expectations that updates will be occasional and journey-focused
 - reinforce Brisbane and collector positioning
-- encourage following Instagram in the meantime
+- reinforce that updates are tied to meaningful progress rather than arbitrary timing
 
 ## Pre-Sales Strategy Considerations
 
@@ -452,26 +432,25 @@ Collecting only email is fine for MVP, but the system should eventually support 
 - plant interest
 - location
 - collector seriousness
-- release readiness
+- progress stage
 
 Even a simple hidden source field from Instagram vs Marketplace would be useful.
 
-### 2. Scarcity mechanics
+### 2. Interest mechanics
 
-Since inventory will be limited, define the release model early:
+Since the site is not pushing immediate sales, define what email updates are meant to do early:
 
-- first-come-first-served
-- VIP early access for earliest waitlist subscribers
-- local pickup priority
-- invitation-based release windows
+- document progress
+- gauge interest by plant type
+- identify the most engaged subscribers
+- prepare for future update communication without promising dates
 
-This does not need to be public yet, but it should be decided before launches begin.
+This does not need to be public yet, but it should be clear internally before launches begin.
 
 ### 3. Trust-building before stock exists
 
 Because proof is currently light, credibility must come from:
 
-- consistent Instagram posting
 - real grower identity
 - process transparency
 - visible plant care quality
@@ -479,24 +458,24 @@ Because proof is currently light, credibility must come from:
 
 The website should not try to fake scale. It should lean into being early and personal.
 
-### 4. Messaging around wait time
+### 4. Messaging around time
 
 This is one of the main risks.
 
 Recommended approach:
 
-- distinguish between `ready now` and `future collector releases`
-- frame the waitlist as access to updates, not a promise of fast fulfillment
-- test audience appetite for both immediate stock and longer-horizon collector drops
+- distinguish between `available now` and `still growing`
+- frame email signup as a way to follow progress, not a promise of fast fulfillment
+- test audience appetite for longer-horizon plant journeys
 
 ### 5. Plant health promise
 
-The strongest trust angle is local readiness and careful release timing.
+The strongest trust angle is local readiness and careful timing.
 
 That means the site should repeatedly imply:
 
-- plants are released when healthy and established
-- buyer risk is reduced by local handling and grow-out
+- plants are shared when healthy and established
+- buyer risk is reduced by local handling and careful standards
 - quality beats speed
 
 ### 6. Local market wedge
@@ -516,18 +495,16 @@ The fastest trust-building content is likely:
 - before-and-after growth progress
 - plant close-ups
 - acclimation and care process
-- release teasers
+- milestone updates
 - founder commentary
 
-The website should work as the stable conversion endpoint, while Instagram remains the living proof layer.
-
-There is no MVP requirement for a blog, journal, or on-site content engine. Social content should drive discovery and trust, and the website should focus on conversion.
+There is no MVP requirement for a blog, journal, or on-site content engine. Social content can drive discovery, but the website should focus on conversion.
 
 ### 8. Compliance and legal caution
 
 Before stronger copy is published later, verify:
 
-- import and quarantine language
+- shipping and fulfillment language
 - state shipping limitations
 - refund and replacement policy once sales begin
 - biosecurity-sensitive phrasing
@@ -547,7 +524,7 @@ Reasoning:
 - cheap to start
 - easy custom domain support
 - can store contacts and custom properties for later segmentation
-- can support future release emails without changing providers immediately
+- can support future update emails later without changing providers immediately
 
 ### Why this is the best MVP choice
 
@@ -555,7 +532,7 @@ Plantr does not need a full CRM or advanced marketing suite yet. The main requir
 
 - collect emails reliably
 - send a welcome email if needed
-- later send simple release announcements
+- later send simple progress updates or announcements
 
 Resend is the strongest default because it is developer-friendly and lightweight for a small Next.js app.
 
@@ -588,17 +565,17 @@ It is better for a newsletter-style publishing workflow than for a branded socia
 
 ### Strong angles
 
-- `Rare plants, without the sourcing headache`
-- `For Australian collectors chasing uncommon variegation`
-- `Brisbane-grown trust for hard-to-find plants`
-- `Join the waitlist for limited collector releases`
-- `Healthy, local-ready releases over rushed imports`
+- `Rare alocasias for Australian collectors`
+- `For collectors chasing uncommon variegation`
+- `Brisbane-grown with patience and care`
+- `Follow the journey of rare alocasias`
+- `Healthy, ready plants over rushed timing`
 
 ### Weak angles to avoid
 
 - generic startup language
 - luxury language that disconnects from enthusiast culture
-- over-technical import/process language on the homepage
+- over-technical process language on the homepage
 - broad ecommerce promises
 
 ## Open Questions Still Worth Answering
@@ -607,7 +584,7 @@ These are not blockers for the MVP spec, but they still affect implementation qu
 
 ### Next-stage questions
 
-1. Do you want release messaging to use `collector releases` consistently, or just `releases`?
+1. Do you want the site to keep any public-facing mention of `waitlist`, or should it stay completely behind the scenes?
 2. Should the site link directly to the `mingie_plants` Instagram handle during the brand transition, or should a Plantr-branded Instagram be created first?
 3. Do you want any lightweight analytics from day one, such as Vercel Analytics or GA4?
 
@@ -619,19 +596,19 @@ These are not blockers for the MVP spec, but they still affect implementation qu
 - Visual strategy: plant-only imagery
 - Brand identity: merge the existing Instagram personality into Plantr
 - Content strategy: Instagram-led, no MVP blog or journal
-- Release language: `releases`
+- Public language: `updates`, `progress`, and `the journey`
 - Email provider: `Resend`
 - Waitlist automation: send an automatic welcome email immediately after signup
 - Pickup communication: keep wording soft on the homepage until operations are more explicit
 
 ## Recommended MVP Decision
 
-The first version of the site should behave like a high-trust landing page, not a store.
+The first version of the site should behave like a high-trust interest page, not a store.
 
 Its job is to:
 
-- turn social traffic into email subscribers
+- turn social traffic into interested email subscribers
 - make the brand feel real and local
-- communicate collector focus
+- communicate collector focus and care standards
 - reduce fear around legitimacy and plant condition
-- validate demand for limited rare plant releases
+- validate interest in the ongoing growing journey of rare alocasias
