@@ -2,9 +2,16 @@ import "@repo/ui/styles.css";
 import "~/styles/globals.css";
 
 import type { Metadata } from "next";
-import { Cormorant_Garamond, DM_Sans } from "next/font/google";
+import { Cormorant_Garamond } from "next/font/google";
 
 import { siteConfig } from "~/lib/site";
+
+const displayFont = Cormorant_Garamond({
+	subsets: ["latin"],
+	weight: ["300", "400", "500"],
+	style: ["normal", "italic"],
+	variable: "--font-cormorant",
+});
 
 export const metadata: Metadata = {
 	metadataBase: new URL(siteConfig.url),
@@ -25,28 +32,14 @@ export const metadata: Metadata = {
 		title: siteConfig.name,
 		description: siteConfig.description,
 	},
-	icons: [
-		{ rel: "icon", type: "image/svg+xml", url: "/favicon.svg" },		
-	],
+	icons: [{ rel: "icon", type: "image/svg+xml", url: "/favicon.svg" }],
 };
-
-const display = Cormorant_Garamond({
-	subsets: ["latin"],
-	variable: "--font-display",
-	weight: ["400", "500", "600", "700"],
-});
-
-const body = DM_Sans({
-	subsets: ["latin"],
-	variable: "--font-body",
-	weight: ["400", "500", "700"],
-});
 
 export default function RootLayout({
 	children,
 }: Readonly<{ children: React.ReactNode }>) {
 	return (
-		<html className={`${display.variable} ${body.variable}`} lang="en">
+		<html lang="en" className={displayFont.variable}>
 			<body>{children}</body>
 		</html>
 	);

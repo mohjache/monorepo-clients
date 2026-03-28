@@ -3,5 +3,6 @@ export const siteConfig = {
 	domain: "plantr-mingie.com",
 	url: "https://plantr-mingie.com",
 	description:
-		"Follow the Plantr by Mingie journey for rare alocasias in Brisbane, shaped by patience, visible care, and thoughtful growing.",
+		"Follow the Plantr by Mingie journey for rare alocasias in Brisbane.",
+	instagram: "https://instagram.com/plantrbymingie",
 } as const;

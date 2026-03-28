@@ -1,6 +1,6 @@
 {
+	"root": false,
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-	"root": true,
 	"vcs": {
 		"enabled": true,
 		"useIgnoreFile": true,

@@ -1,5 +1,9 @@
 "use client";
 
+import { Button } from "@repo/ui/components/ui/button";
+import { Input } from "@repo/ui/components/ui/input";
+import { Spinner } from "@repo/ui/components/ui/spinner";
+
 import { useActionState } from "react";
 import { useFormStatus } from "react-dom";
 
@@ -10,35 +14,40 @@ const initialWaitlistState: WaitlistActionState = {
 	message: "",
 };
 
-function SubmitButton() {
+function SubmitButton({ label }: { label: string }) {
 	const { pending } = useFormStatus();
 
 	return (
-		<button
-			className="inline-flex min-h-12 items-center justify-center rounded-full bg-[var(--color-ink)] px-6 font-medium text-sm text-white shadow-[0_16px_40px_rgba(31,36,29,0.18)] hover:-translate-y-0.5 hover:bg-[var(--color-leaf)] disabled:cursor-not-allowed disabled:opacity-70"
+		<Button
+			aria-label={pending ? "Submitting…" : label}
 			disabled={pending}
 			type="submit"
+			className="relative"
 		>
-			{pending ? "Joining..." : "Follow the journey"}
-		</button>
+			{/* Reserve the label's width at all times so the button never resizes */}
+			<span aria-hidden className="invisible">{label}</span>
+
+			{/* Overlay — label or spinner, centred absolutely */}
+			<span className="absolute inset-0 flex items-center justify-center">
+				{pending ? (
+					<Spinner />
+				) : (
+					<span>{label}</span>
+				)}
+			</span>
+		</Button>
 	);
 }
 
 function FormMessage({ state }: { state: WaitlistActionState }) {
-	if (state.status === "idle" || !state.message) {
-		return (
-			<p className="text-black/60 text-sm leading-6">
-				Thoughtful updates only. No spam, no payment, and no pressure to buy.
-			</p>
-		);
-	}
+	if (state.status === "idle" || !state.message) return null;
 
 	return (
 		<p
 			className={
 				state.status === "success"
-					? "text-[var(--color-leaf)] text-sm leading-6"
-					: "text-[#8f3b48] text-sm leading-6"
+					? "text-primary text-sm leading-6"
+					: "text-error text-sm leading-6"
 			}
 		>
 			{state.message}
@@ -46,7 +55,11 @@ function FormMessage({ state }: { state: WaitlistActionState }) {
 	);
 }
 
-export function WaitlistForm() {
+interface WaitlistFormProps {
+	submitLabel?: string;
+}
+
+export function WaitlistForm({ submitLabel = "Join" }: WaitlistFormProps) {
 	const [state, formAction] = useActionState(
 		joinWaitlist,
 		initialWaitlistState,
@@ -58,16 +71,16 @@ export function WaitlistForm() {
 				<label className="sr-only" htmlFor="email">
 					Email address
 				</label>
-				<input
+				<Input
 					autoComplete="email"
-					className="min-h-12 flex-1 rounded-full border border-black/10 bg-white/90 px-5 text-[var(--color-ink)] text-sm outline-none ring-0 placeholder:text-black/45 focus:border-[var(--color-leaf)]"
+					className="h-11 flex-1 rounded-full bg-background px-5"
 					id="email"
 					name="email"
-					placeholder="Enter your email to follow the rare alocasia journey"
+					placeholder="Enter your email"
 					required
 					type="email"
 				/>
-				<SubmitButton />
+				<SubmitButton label={submitLabel} />
 			</div>
 			<div className="mt-3">
 				<FormMessage state={state} />
