@@ -1,9 +1,0 @@
-body {
-  /* Soft botanical atmosphere — faint green bloom from the top */
-  background-image: radial-gradient(
-    ellipse 120% 50% at 50% -10%,
-    oklch(0.88 0.08 155 / 0.5) 0%,
-    transparent 70%
-  );
-  min-height: 100dvh;
-}
